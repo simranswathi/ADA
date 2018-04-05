@@ -39,7 +39,6 @@ printf("%d ",t[i]);
 void main()
 {
 int i,j;
-clrscr();
 printf("Enter number of jobs:");
 scanf("%d",&n);
 printf("\nEnter the adjacency matrix:\n");
@@ -49,6 +48,5 @@ for(j=0;j<n;j++)
 scanf("%d",&a[i][j]);
 }
 topology();
-getch();
 }
 
